@@ -58,3 +58,5 @@ gem 'pry-rails', :group => :development
 gem 'bullet', group: 'development'
 
 
+# For select timezone
+gem 'simple_form'

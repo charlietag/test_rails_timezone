@@ -89,3 +89,6 @@
   * https://github.com/charlietag/test_rails_timezone/compare/v0.0.1...v0.0.2
 
 ## Note
+* Package 'simple_form'
+  * `gem 'simple_form'`
+  * `rails generate simple_form:install --bootstrap`
