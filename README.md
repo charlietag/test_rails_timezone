@@ -85,10 +85,16 @@
 ## Changes
 * Basic config and setup
   * https://github.com/charlietag/test_rails_timezone/compare/v0.0.0...v0.0.1
-* Start trying
+* Start trying (Timezone in Rails database)
   * https://github.com/charlietag/test_rails_timezone/compare/v0.0.1...v0.0.2
+* Start trying (Timezone - detected by browser javascript)
+  * https://github.com/charlietag/test_rails_timezone/compare/v0.0.2...v0.0.3
 
 ## Note
 * Package 'simple_form'
   * `gem 'simple_form'`
   * `rails generate simple_form:install --bootstrap`
+* References
+  * Ref. https://api.rubyonrails.org/classes/Time.html#method-c-use_zone
+  * Ref. https://prathamesh.tech/2019/07/11/use-time-use_zone-to-navigate-timezone
+  * Ref. https://thoughtbot.com/blog/its-about-time-zones#with-user-time-zones
