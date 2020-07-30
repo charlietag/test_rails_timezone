@@ -87,8 +87,16 @@
   * https://github.com/charlietag/test_rails_timezone/compare/v0.0.0...v0.0.1
 * Start trying (Timezone in Rails database)
   * https://github.com/charlietag/test_rails_timezone/compare/v0.0.1...v0.0.2
-* Start trying (Timezone - detected by browser javascript)
+* Start trying (Timezone - detected by browser javascript) - **GEM "local-time"**
   * https://github.com/charlietag/test_rails_timezone/compare/v0.0.2...v0.0.3
+    * Gem **local-time**
+      * Server Side - For erb template ruby method, ie. `<%= local_time book.created_at %>`
+        * `gem 'local_time'`
+      * Client Side - For javascript, detecting browser time_zone
+        * `yarn add local-time`
+        * app/javascript/packs/application.js
+          * `require("local-time").start()`
+
 
 ## Note
 * Package 'simple_form'

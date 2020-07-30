@@ -60,3 +60,6 @@ gem 'bullet', group: 'development'
 
 # For select timezone
 gem 'simple_form'
+
+# For display correct date time in correct time zone
+gem 'local_time'

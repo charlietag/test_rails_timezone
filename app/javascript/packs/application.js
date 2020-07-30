@@ -1,5 +1,17 @@
 import "jquery/src/jquery"
+// require("jquery/src/jquery")   //<---- Same as above
+
 import "bootstrap/dist/js/bootstrap"
+
+
+// --- local-time ---
+// ### Method 1 ###
+//import LocalTime from "local-time"
+//LocalTime.start()
+
+// ### Method 2 ###
+require("local-time").start()
+// -----------------
 
 // This file is automatically compiled by Webpack, along with any other files
 // present in this directory. You're encouraged to place your actual application logic in
